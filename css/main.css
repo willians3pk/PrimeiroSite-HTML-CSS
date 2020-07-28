@@ -17,6 +17,21 @@ a:hover{
     padding: 10px 20px;
     overflow: hidden;
 }
+#formulario{
+    width: 960px;
+    margin: auto;
+    background: #e3e3e3;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+#formulario2{
+    background: #e3e3e3;
+    margin: auto;
+    padding: 450px 20px;
+}
+form {
+    text-align:center;
+  }
 header nav ul{
     list-style: none;
     padding-left: 0;
