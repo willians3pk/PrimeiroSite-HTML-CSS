@@ -49,6 +49,12 @@ body{
 .rodape{
     grid-area: rodape;
     background: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-right: 20px;
+    color: #444;
 }
 
 .login{
