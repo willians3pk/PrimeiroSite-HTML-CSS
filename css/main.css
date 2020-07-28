@@ -1,5 +1,57 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #e3e3e3;
+    background-size: cover;
+
+}
+
+.login{
+    align-items: baseline;
+    width: 340px;
+    height: 420px;
+    border: 2px solid #000;
+    /*border-radius: 80px 0px 80px 0px;*/
+    color: #fff;
+    background-color: rgba(0, 0, 5, 0, 8);
+    top: 20%;
+    left: 40%;
+    position: absolute;
+
+}
+.login p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font: bold;
+}
+.login input{
+    margin-bottom: 21px;
+    width: 100%
+}
+.login input[type=text], input[type=password]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.login input[type=submit]{
+    border: none;
+    outline: none;
+    height: 35px;
+    color: #000;
+    background: #fff;
+    border-radius: 20px;
+    transition: 0,2s;
+}
+.login input[type=submit]:hover{
+    cursor: pointer;
+    background: #ff4d4d;
+    transition: 0,2s;
 }
 
 a:link, a:visited{
