@@ -3,8 +3,9 @@ body{
 }
 
 a:link, a:visited{
-    color: #ff6600;
+    color: blue;
     text-decoration: none;
+    font-size: 15px;
 }
 a:hover{
     text-decoration: underline;
@@ -18,20 +19,21 @@ a:hover{
     overflow: hidden;
 }
 #formulario{
-    width: 960px;
+    align-items: center;
     margin: auto;
-    background: #e3e3e3;
-    padding: 10px 20px;
-    overflow: hidden;
-}
-#formulario2{
-    background: #e3e3e3;
-    margin: auto;
-    padding: 450px 20px;
+    padding: 400px 250px;
 }
 form {
     text-align:center;
-  }
+    
+}
+form div{
+    align-items: center;
+    
+}
+form div ul{
+    list-style: none;
+}
 header nav ul{
     list-style: none;
     padding-left: 0;
@@ -42,7 +44,6 @@ header nav ul li{
 }
 header nav ul li a{
     font-size: 18px;
-    color: tomato;
     text-decoration: none;
 }
 header nav ul li a:hover{
