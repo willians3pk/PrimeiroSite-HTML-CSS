@@ -8,22 +8,22 @@ body{
 }
 
 .login{
-    align-items: baseline;
-    width: 340px;
-    height: 420px;
+    padding: 50px 20px;
+    width: 320px;
+    height: 300px;
     border: 2px solid #000;
-    /*border-radius: 80px 0px 80px 0px;*/
+    border-radius: 80px 0px 80px 0px;
     color: #fff;
     background-color: rgba(0, 0, 5, 0, 8);
     top: 20%;
-    left: 40%;
+    left: 35%;
     position: absolute;
 
 }
 .login p{
     margin: 0;
     padding: 0;
-    color: #fff;
+    color: #000;
     font: bold;
 }
 .login input{
@@ -32,11 +32,11 @@ body{
 }
 .login input[type=text], input[type=password]{
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #000;
     background: transparent;
     outline: none;
     height: 40px;
-    color: white;
+    color: #000;
     font-size: 16px;
 }
 .login input[type=submit]{
