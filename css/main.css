@@ -111,23 +111,23 @@ body{
 .modulo.azul {border: 2px solid #2196F3;}
 .modulo.azul > h3 {background-color: #2196F3;}
 
-.modulo.cor {border: 2px solid #?;}
-.modulo.cor > h3 {background-color: #?;}
+.modulo.roxo {border: 2px solid #9C27B0;}
+.modulo.roxo > h3 {background-color: #9C27B0;}
 
-.modulo.cor {border: 2px solid #?;}
-.modulo.cor > h3 {background-color: #?;}
+.modulo.laranja {border: 2px solid #FF9800;}
+.modulo.laranja > h3 {background-color: #FF9800;}
 
-.modulo.cor {border: 2px solid #?;}
-.modulo.cor > h3 {background-color: #?;}
+.modulo.verde-escuro {border: 2px solid #1B5E20;}
+.modulo.verde-escuro > h3 {background-color: #1B5E20;}
 
-.modulo.cor {border: 2px solid #?;}
-.modulo.cor > h3 {background-color: #?;}
+.modulo.vermelho-escuro {border: 2px solid #B71C1C;}
+.modulo.vermelho-escuro > h3 {background-color: #B71C1C;}
 
-.modulo.cor {border: 2px solid #?;}
-.modulo.cor > h3 {background-color: #?;}
+.modulo.azul-escuro {border: 2px solid #0D47A1;}
+.modulo.azul-escuro > h3 {background-color: #0D47A1;}
 
-.modulo.cor {border: 2px solid #?;}
-.modulo.cor > h3 {background-color: #?;}
+.modulo.roxo-escuro {border: 2px solid #4A148C;}
+.modulo.roxo-escuro > h3 {background-color: #4A148C;}
 
 .rodape{
     grid-area: rodape;
