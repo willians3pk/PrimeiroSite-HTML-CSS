@@ -1,10 +1,54 @@
-body{
+*{
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
     margin: 0;
-    padding: 0;
-    background: #e3e3e3;
-    background-size: cover;
+    display: grid;
+    grid-template-rows: 120px 1fr 60px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "cabecalho"
+        "principal"
+        "rodape";
+}
 
+.cabecalho{
+    grid-area: cabecalho;
+    background: #1867c0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    z-index: 1;
+    box-shadow: 0px 4px 13px -2px rgba(0,0,0,0.75);
+}
+
+.cabecalho h1{
+    margin: 0%;
+    font-weight: 300;
+    font-size: 2.8rem;
+}
+
+.cabecalho h2{
+    margin: 0%;
+    font-weight: 200;
+    font-size: 2,6rem;
+}
+
+.principal{
+    grid-area: principal;
+    height: calc(100vh - 180px);
+    background: #e3e3e3;
+    padding: 20px;
+}
+
+.rodape{
+    grid-area: rodape;
+    background: white;
 }
 
 .login{
@@ -18,18 +62,20 @@ body{
     top: 20%;
     left: 35%;
     position: absolute;
-
 }
+
 .login p{
     margin: 0;
     padding: 0;
     color: #000;
     font: bold;
 }
+
 .login input{
     margin-bottom: 21px;
     width: 100%
 }
+
 .login input[type=text], input[type=password]{
     border: none;
     border-bottom: 1px solid #000;
@@ -39,6 +85,7 @@ body{
     color: #000;
     font-size: 16px;
 }
+
 .login input[type=submit]{
     border: none;
     outline: none;
@@ -48,6 +95,7 @@ body{
     border-radius: 20px;
     transition: 0,2s;
 }
+
 .login input[type=submit]:hover{
     cursor: pointer;
     background: #ff4d4d;
