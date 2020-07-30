@@ -54,7 +54,7 @@ body{
     box-shadow: 0px 12px 4px -5px rgba(0,0,0,0.75);
 }
 
-.login > input[type=submit]{
+.login input[type=submit]{
     border: none;
     outline: none;
     height: 35px;
