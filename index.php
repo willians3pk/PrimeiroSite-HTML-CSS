@@ -145,7 +145,7 @@
         </div>
     </main>
     <footer class="rodape">
-        CONGREGAÇÃO JEOVÁ NISSI © 2020
+        CONGREGAÇÃO JEOVÁ NISSI © <?= date('Y'); ?>
     </footer>
 
 </body>
