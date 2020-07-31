@@ -36,6 +36,7 @@
 
         .menu ul li a{
             color: white;
+            
         }
 
         .modulos {
@@ -58,7 +59,7 @@
             <div class="menu">
                 <ul>
                     <li><a href="#">HOME</a></li>
-                    <li><a href="#">CONTATO</a></li>
+                    <li><a href="#">LOGIN</a></li>
                     <li><a href="#">SOBRE</a></li>
                     <li><a href="#">REDE SOCIAIS</a></li>
                 </ul>
