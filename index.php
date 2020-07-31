@@ -40,7 +40,7 @@
 
         .modulos {
             margin: 0 auto;
-            /* width: 900px; */
+            width: 900px;
             position: relative;
         }
     </style>
