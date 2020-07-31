@@ -16,7 +16,7 @@ body{
 
 .cabecalho{
     grid-area: cabecalho;
-    background: #131a22;
+    background: #1867c0;
     color: white;
     display: flex;
     flex-direction: column;

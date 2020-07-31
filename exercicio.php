@@ -7,15 +7,24 @@
     <title>Jeová Nissi - Home</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/index.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/exercicio.css'>
     <script src='php/main.php' type="text/php"></script>
 </head>
 
-<body>
+<body class="exercicio">
 
     <header class="cabecalho">
-       <h1>Curso PHP</h1>
-       <h2>Visualização do Exercício</h2>
+        <div class="header-1">
+            <h1>Curso PHP</h1>
+            <h2>Visualização do Exercício</h2>
+        </div>
+       
     </header>
+
+    <nav class="navegacao">
+        <a href="#" class="verde">Sem Formatação</a>
+        <a href="index.php" class="vermelho">Voltar</a>
+    </nav>
 
     <main class="principal">
         <div class="conteudo">

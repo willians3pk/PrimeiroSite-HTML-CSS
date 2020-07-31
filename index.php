@@ -23,7 +23,7 @@
         }
 
         .menu {
-            width: 390px;
+            width: 365px;
             float: right;
         }
 
@@ -36,12 +36,11 @@
 
         .menu ul li a{
             color: white;
-            
         }
 
         .modulos {
             margin: 0 auto;
-            width: 900px;
+            /* width: 900px; */
             position: relative;
         }
     </style>
