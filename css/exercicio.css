@@ -24,13 +24,13 @@ body.exercicio{
     color: #FFF;
     font-weight: 300;
     font-size: 1.3rem;
-    background-color: rgb(33, 150, 243);
+    background-color: rgb(25, 226, 109);
     padding: 5px 10px;
     margin: 10px;
 }
 
 
-.navegacao a.verde {background-color: #4CAF50;}
+.navegacao a.verde {background-color: #555;}
 
 .navegacao a.vermelho {background-color: #f44336;}
 
