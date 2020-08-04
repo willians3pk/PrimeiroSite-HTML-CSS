@@ -13,8 +13,8 @@
 <body>
 
     <header class="cabecalho">
-                <h1>Jeová Nissi</h1>
-                <h2>Congregação Jeová Nissi</h2>
+                <h1>Curso PHP</h1>
+                <h2>Exercicios</h2>
     </header>
 
     <main class="principal">
@@ -96,7 +96,7 @@
         </div>
     </main>
     <footer class="rodape">
-        CONGREGAÇÃO JEOVÁ NISSI © <?= date('Y'); ?>
+        Curso PHP © <?= date('Y'); ?>
     </footer>
 
 </body>

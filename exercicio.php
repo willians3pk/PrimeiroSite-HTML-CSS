@@ -32,7 +32,7 @@
         </div>
     </main>
     <footer class="rodape">
-        CONGREGAÇÃO JEOVÁ NISSI © <?= date('Y'); ?>
+        Curso PHP © <?= date('Y'); ?>
     </footer>
 
 </body>

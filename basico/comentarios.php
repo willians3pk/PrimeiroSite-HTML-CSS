@@ -11,8 +11,12 @@ echo "Estou no PHP";
 <p>Depois do Primeiro bloco!</p>
 
 <?php
-/*Linha do comentário
-Linha do comentário
-Linha do comentário
+/*
+    Linha do comentário
+    Linha do comentário
+    Linha do comentário
 */
+
 ?>
+
+<p>Depois do segundo bloco!</p>
