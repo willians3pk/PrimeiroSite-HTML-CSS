@@ -8,62 +8,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/index.css'>
     <script src='php/main.php' type="text/php"></script>
-
-    <style>
-        .header-1 {
-            margin: 0 auto;
-            width: 900px;
-            position: relative;
-            float: left;
-        }
-
-        .logo {
-            padding: 0px;
-            width: 300px;
-        }
-
-        .menu {
-            width: 365px;
-            float: right;
-        }
-
-        .menu ul li {
-            display: inline-block;
-            float: left;
-            list-style: none;
-            margin-left: 10px;
-        }
-
-        .menu ul li a{
-            color: white;
-        }
-
-        .modulos {
-            margin: 0 auto;
-            width: 900px;
-            position: relative;
-        }
-    </style>
-
 </head>
 
 <body>
 
     <header class="cabecalho">
-        <div class="header-1">
-            <div class="logo">
                 <h1>Jeová Nissi</h1>
                 <h2>Congregação Jeová Nissi</h2>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">LOGIN</a></li>
-                    <li><a href="#">SOBRE</a></li>
-                    <li><a href="#">REDE SOCIAIS</a></li>
-                </ul>
-            </div>
-        </div>
     </header>
 
     <main class="principal">
@@ -72,8 +23,8 @@
                 <div class="modulo verde">
                     <h3>Módulo 01</h3>
                     <ul>
-                        <li><a href="exercicio.php?dir=teste&file=teste">Exercicio A</a></li>
-                        <li><a href="#">Exercicio B</a></li>
+                        <li><a href="exercicio.php?dir=basico&file=css">Integração CSS</a></li>
+                        <li><a href="exercicio.php?dir=basico&file=html">Integração HTML</a></li>
                         <li><a href="#">Exercicio C</a></li>
                     </ul>
                 </div>

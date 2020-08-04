@@ -14,11 +14,8 @@
 <body class="exercicio">
 
     <header class="cabecalho">
-        <div class="header-1">
             <h1>Curso PHP</h1>
             <h2>Visualização do Exercício</h2>
-        </div>
-       
     </header>
 
     <nav class="navegacao">
