@@ -1,2 +1,2 @@
-# PrimeiroSite-HTML-CSS
-Meu primeiro Estudo em HTML e CSS para desenvolvimento de Sites
+# PrimeiroSite-HTML-CSS-PHP
+Meu primeiro Estudo em HTML / CSS e PHP para desenvolvimento de Sites
